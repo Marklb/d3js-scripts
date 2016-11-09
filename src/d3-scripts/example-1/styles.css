@@ -1,0 +1,21 @@
+html, body {
+  background-color: rgba(30,30,30,1);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+svg {
+  background-color: rgba(0,0,0,1);
+}
+
+.figure-area {
+  fill: rgba(60,20,20,1);
+  stroke: rgba(20,50,130,1);
+}
+
+
+
+.sensor-marker {
+  fill: cyan;
+}

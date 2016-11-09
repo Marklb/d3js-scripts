@@ -1,0 +1,94 @@
+html, body {
+  background-color: rgba(30,30,30,1);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+svg {
+  background-color: rgba(0,0,0,1);
+}
+
+.figure-area {
+  /*fill: rgba(60,20,20,1);*/
+  fill: rgba(30,30,30,1);
+  stroke: rgba(20,50,130,1);
+}
+
+
+
+.sensor-marker {
+  fill: cyan;
+}
+
+.detector-marker {
+  fill: rgba(255,0,0,1);
+  shape-rendering: auto;
+}
+
+.det-text {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;        /* Internet Explorer/Edge */
+  user-select: none;               /* Non-prefixed version, currently
+                                               not supported by any browser */
+  cursor: default;
+  fill: green;
+}
+
+.grid .tick {
+  stroke: lightgrey;
+  opacity: 0.7;
+}
+.grid path {
+  stroke-width: 0;
+}
+.grid line {
+  stroke: lightgrey;
+  opacity: 0.5;
+}
+
+
+
+
+svg circle.detectorMarker{
+  fill: rgba(255,0,0,1);
+  shape-rendering: auto;
+}
+
+svg text.detectorLabel{
+  font-size: 11px;
+  fill: rgba(255,255,255,1);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;        /* Internet Explorer/Edge */
+  user-select: none;               /* Non-prefixed version, currently
+                                               not supported by any browser */
+  cursor: default;
+}
+
+svg circle.sourceMarker{
+  /*fill: rgba(40,80,150,1);*/
+  fill: rgba(40,180,150,1);
+  shape-rendering: auto;
+}
+
+svg circle.testMarker{
+  /*fill: rgba(40,80,150,1);*/
+  fill: rgba(250,150,100,1);
+  shape-rendering: auto;
+}
+
+svg circle.originalCentroidMarker{
+  fill: rgba(20,40,80,1);
+  shape-rendering: auto;
+}
+
+svg circle.shiftedCentroidMarker{
+  fill: rgba(20,80,40,1);
+  shape-rendering: auto;
+}
