@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "d3": "^4.3.0",
+    "fs-extra": "^1.0.0",
+    "jquery": "^3.1.1",
     "mathjs": "^3.7.0"
   },
   "devDependencies": {

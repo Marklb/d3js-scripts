@@ -2,11 +2,11 @@ console.log('Starting: example-1');
 var d3 = require('d3');
 
 var things = [
-  {name: 'Sensor 1', measurement: 96, x: 10, y: 10, r: 5},
-  {name: 'Sensor 2', measurement: 68, x: 20, y: 20, r: 5},
-  {name: 'Sensor 3', measurement: 83, x: 10, y: 30, r: 5},
-  {name: 'Sensor 4', measurement: 35, x: 50, y: 50, r: 5},
-  {name: 'Sensor 5', measurement: 79, x: 30, y: 70, r: 5}
+  {name: 'Sensor 1', measurement: 96, x: 10, y: 10, r: 10},
+  {name: 'Sensor 2', measurement: 68, x: 20, y: 20, r: 10},
+  {name: 'Sensor 3', measurement: 83, x: 10, y: 30, r: 10},
+  {name: 'Sensor 4', measurement: 35, x: 50, y: 50, r: 10},
+  {name: 'Sensor 5', measurement: 79, x: 30, y: 70, r: 10}
 ];
 
 
@@ -33,7 +33,7 @@ var svg = d3.select('#figure-container')
   .append('svg')
   .attr('width', fullWidth)
   .attr('height', fullHeight)
-  .call(responsivefy)
+  // .call(responsivefy)
   // .attr('viewBox', `0 0 ${fullWidth}, ${fullHeight}`)
   .append('g')
   .attr('class', 'figure-area')
